@@ -134,13 +134,12 @@ end function
 #### Decoding strings using this python script:
 
 ```python
-'''
-function unxorString(xoredString,xorValue)
-  for i = 1 to Len(xoredString)
-   unxorString = unxorString & chr(asc(mid((xoredString,i,1)) xor xorValue)
-  Next
-end function
-'''
+
+#function unxorString(xoredString,xorValue)
+#  for i = 1 to Len(xoredString)
+#   unxorString = unxorString & chr(asc(mid((xoredString,i,1)) xor xorValue)
+#  Next
+#end function
 
 def unxorString(xoredString, xorValue):
 
